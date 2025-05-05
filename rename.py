@@ -1,7 +1,7 @@
 import os
 
 # Set the path to your directory
-directory = "/home/luisdogo/Desktop/EDA/HUPA-UCM Diabetes Dataset/Preprocessed"
+directory = "HUPA-UCM Diabetes Dataset/Preprocessed"
 
 # List all CSV files in the directory
 csv_files = sorted([f for f in os.listdir(directory) if f.lower().endswith('.csv')])
